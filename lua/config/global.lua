@@ -9,6 +9,7 @@ vim.opt.termguicolors = true
 vim.o.fillchars = 'eob: '
 
 -- more opinionated
+vim.wo.relativenumber = true
 vim.opt.number = true -- show linenumbers
 vim.opt.mouse = 'a' -- enable mouse
 vim.opt.mousefocus = true

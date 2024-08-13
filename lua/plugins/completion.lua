@@ -155,7 +155,6 @@ return {
 
   { -- gh copilot
     'zbirenbaum/copilot.lua',
-    enabled = false,
     config = function()
       require('copilot').setup {
         suggestion = {
